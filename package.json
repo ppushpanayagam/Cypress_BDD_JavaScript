@@ -1,0 +1,21 @@
+{
+  "name": "cypress_bdd_javascript",
+  "version": "1.0.0",
+  "description": "1. npm init -y 2. npm install cypress",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test-electron": "cypress run",
+    "test-electron-headed": "cypress run --headed",
+    "smoke-test": "cypress run --spec \"cypress/e2e/smokeTest/*.cy.js\"",
+    "regression-test": "cypress run --spec \"cypress/e2e/regressionTest/*.cy.js\"",
+    "test-chrome": "cypress run --browser chrome",
+    "test-chrome-headed": "cypress run --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "Pushparaj Pushpanayagam",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  }
+}
