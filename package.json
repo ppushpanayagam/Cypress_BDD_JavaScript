@@ -9,6 +9,8 @@
     "test-electron-headed": "cypress run --headed",
     "smoke-test": "cypress run --spec \"cypress/e2e/smokeTest/*.cy.js\"",
     "regression-test": "cypress run --spec \"cypress/e2e/regressionTest/*.cy.js\"",
+    "workout-test": "cypress run --spec \"cypress/e2e/workout/*.cy.js\"",
+    "workout-test-headed": "cypress run --spec \"cypress/e2e/workout/*.cy.js\" --headed",
     "test-chrome": "cypress run --browser chrome",
     "test-chrome-headed": "cypress run --browser chrome --headed"
   },
